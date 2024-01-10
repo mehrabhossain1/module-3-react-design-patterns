@@ -1,5 +1,5 @@
 import './App.css'
-import UseRef from './components/UseRef'
+import UseRef from './pages/UseRef'
 
 function App() {
   return (
