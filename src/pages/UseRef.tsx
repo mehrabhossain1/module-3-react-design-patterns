@@ -29,6 +29,7 @@ const UseRef = () => {
       <h1>useRef</h1>
       {/* <button onClick={() => increment()}>{count}</button> */}
 
+      {/* comment */}
       <form>
         <CustomInputs ref={myRef} className='border border-red-500' />
         <CustomInputs className='border border-blue-500' />
