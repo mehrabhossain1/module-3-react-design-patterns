@@ -1,10 +1,10 @@
 import './App.css'
-import UseRef from './pages/UseRef'
+import Calculator from './components/Calculator'
 
 function App() {
   return (
     <>
-      <UseRef />
+      <Calculator />
     </>
   )
 }
