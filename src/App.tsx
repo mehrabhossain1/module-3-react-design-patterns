@@ -1,24 +1,27 @@
-import { useContext } from 'react'
 import './App.css'
-import { TThemeContext, ThemeContext } from './context/ThemeProvider'
-import { MenuItem, MenuList } from './components/Menu'
+import TodoList from './components/todo/TodoList'
+import GameResult from './pages/GameResult'
+import Profile from './pages/Profile'
 
 function App() {
-  const { dark, setDark } = useContext(ThemeContext) as TThemeContext
-  console.log(dark)
+  // const { dark, setDark } = useContext(ThemeContext) as TThemeContext
+  // console.log(dark)
 
   return (
     <div
-      className={`h-screen w-full flex justify-center items-center ${
-        dark ? 'bg-black' : 'bg-white'
-      }`}
+    // className={`h-screen w-full flex justify-center items-center ${
+    //   dark ? 'bg-black' : 'bg-white'
+    // }`}
     >
-      <button onClick={() => setDark(!dark)}>Toggle</button>
+      {/* <button onClick={() => setDark(!dark)}>Toggle</button> */}
       {/* <UseRef /> */}
 
-      <MenuList>
+      {/* <MenuList>
         <MenuItem></MenuItem>
-      </MenuList>
+      </MenuList> */}
+      {/* <Profile /> */}
+      {/* <GameResult /> */}
+      <TodoList />
     </div>
   )
 }
