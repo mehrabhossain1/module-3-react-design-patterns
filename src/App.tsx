@@ -1,4 +1,5 @@
 import './App.css'
+import Select from './components/Select'
 import UsersContainer from './components/UsersContainer'
 import TodoList from './components/todo/TodoList'
 import GameResult from './pages/GameResult'
@@ -23,7 +24,14 @@ function App() {
       {/* <Profile /> */}
       {/* <GameResult /> */}
       {/* <TodoList /> */}
-      <UsersContainer />
+      {/* <UsersContainer /> */}
+
+      <Select>
+        <Select.SelectOption value='option1'>Option 1</Select.SelectOption>
+        <Select.SelectOption value='option2'>Option 2</Select.SelectOption>
+        <Select.SelectOption value='option3'>Option 3</Select.SelectOption>
+        <Select.SelectOption value='option4'>Option 4</Select.SelectOption>
+      </Select>
     </div>
   )
 }
