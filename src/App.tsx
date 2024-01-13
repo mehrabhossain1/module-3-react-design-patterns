@@ -20,8 +20,8 @@ function App() {
         <MenuItem></MenuItem>
       </MenuList> */}
       {/* <Profile /> */}
-      {/* <GameResult /> */}
-      <TodoList />
+      <GameResult />
+      {/* <TodoList /> */}
     </div>
   )
 }
