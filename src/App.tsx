@@ -1,4 +1,5 @@
 import './App.css'
+import UsersContainer from './components/UsersContainer'
 import TodoList from './components/todo/TodoList'
 import GameResult from './pages/GameResult'
 import Profile from './pages/Profile'
@@ -20,8 +21,9 @@ function App() {
         <MenuItem></MenuItem>
       </MenuList> */}
       {/* <Profile /> */}
-      <GameResult />
+      {/* <GameResult /> */}
       {/* <TodoList /> */}
+      <UsersContainer />
     </div>
   )
 }
